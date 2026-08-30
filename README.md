@@ -46,6 +46,27 @@ install.packages(c("ggplot2", "patchwork", "minpack.lm", "bbmle"))  # dependenci
 install.packages("MMgrowthR_0.7.4.tar.gz", repos = NULL, type = "source")
 ```
 
+## Citation
+
+If MMgrowthR is useful in your work, please cite it. Once the package is
+installed, run:
+
+```r
+citation("MMgrowthR")
+```
+
+which prints the entry to use (and its BibTeX form, via
+`toBibtex(citation("MMgrowthR"))`). As plain text:
+
+> Velázquez Abunader, J.I. (2026). MMgrowthR: Multi-Model Fitting of
+> Growth Curves. R package version 0.7.4.
+> https://github.com/jivabunader/MMgrowthR
+
+The repository also includes a `CITATION.cff` file, so GitHub shows a
+**"Cite this repository"** button (top right of the repo page) that
+generates the same citation in APA or BibTeX format directly - useful for
+anyone who wants to cite the package without installing it first.
+
 ## Documentation
 
 Every exported function - and every `print`/`summary`/`coef` method for

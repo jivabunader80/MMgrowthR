@@ -1,0 +1,20 @@
+year <- if (!is.null(meta$Packaged)) {
+  sub("-.*", "", meta$Packaged)
+} else {
+  format(Sys.Date(), "%Y")
+}
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(
+  bibtype     = "Manual",
+  title       = "MMgrowthR: Multi-Model Fitting of Growth Curves",
+  author      = person("José Iván", "Velázquez Abunader",
+                        email = "jvelazquez@cinvestav.mx"),
+  year        = year,
+  note        = note,
+  url         = "https://github.com/jivabunader/MMgrowthR",
+  textVersion = paste0(
+    "Velázquez Abunader, J.I. (", year, "). MMgrowthR: Multi-Model Fitting of ",
+    "Growth Curves. ", note, ". https://github.com/jivabunader/MMgrowthR"
+  )
+)
