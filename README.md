@@ -43,7 +43,7 @@ From a local source tarball:
 
 ```r
 install.packages(c("ggplot2", "patchwork", "minpack.lm", "bbmle"))  # dependencies
-install.packages("MMgrowthR_0.7.4.tar.gz", repos = NULL, type = "source")
+install.packages("MMgrowthR_0.7.4.1.tar.gz", repos = NULL, type = "source")
 ```
 
 ## Citation
@@ -58,9 +58,9 @@ citation("MMgrowthR")
 which prints the entry to use (and its BibTeX form, via
 `toBibtex(citation("MMgrowthR"))`). As plain text:
 
-> Velázquez Abunader, J.I. (2026). MMgrowthR: Multi-Model Fitting of
-> Growth Curves. R package version 0.7.4.
-> https://github.com/jivabunader/MMgrowthR
+> Velázquez-Abunader, I. (2026). MMgrowthR: Multi-Model Fitting of Growth
+> Curves in R. R package version 0.7.4.1. Centro de Investigación y de
+> Estudios Avanzados
 
 The repository also includes a `CITATION.cff` file, so GitHub shows a
 **"Cite this repository"** button (top right of the repo page) that

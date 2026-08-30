@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "MMgrowthR: Multi-Model Fitting of Growth Curves"
-version: 0.7.4
-date-released: "2026-08-27"
+title: "MMgrowthR: Multi-Model Fitting of Growth Curves in R"
+version: 0.7.4.1
+date-released: "2026-08-30"
 url: "https://github.com/jivabunader/MMgrowthR"
 repository-code: "https://github.com/jivabunader/MMgrowthR"
 license: MIT
 authors:
-  - family-names: "Velázquez Abunader"
-    given-names: "José Iván"
+  - family-names: "Velázquez-Abunader"
+    given-names: "Iván"
     email: jvelazquez@cinvestav.mx
+    affiliation: "Centro de Investigación y de Estudios Avanzados"
