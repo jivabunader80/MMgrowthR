@@ -1,5 +1,9 @@
 # MMgrowthR
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/TU-USUARIO/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/TU-USUARIO/MMgrowthR/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 R package to fit, compare, and plot **individual growth models** under a
 **multi-model approach**: von Bertalanffy, Gompertz, Gompertz-Laird,
 logistic, Richards, the four classic Schnute (1981) parametrisation cases
@@ -27,6 +31,15 @@ Bertalanffy) reported as the best-supported model for white grunt,
 *Haemulon plumieri* (Oribe-Perez et al. 2020).
 
 ## Installation
+
+From GitHub (recommended - always the latest version):
+
+```r
+install.packages("remotes")  # if not already installed
+remotes::install_github("TU-USUARIO/MMgrowthR")
+```
+
+From a local source tarball:
 
 ```r
 install.packages(c("ggplot2", "patchwork", "minpack.lm", "bbmle"))  # dependencies
