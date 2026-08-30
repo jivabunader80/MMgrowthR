@@ -1,0 +1,12 @@
+# R package build/check artifacts
+*.Rcheck/
+*.tar.gz
+*.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db

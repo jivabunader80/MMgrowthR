@@ -1,0 +1,50 @@
+Package: MMgrowthR
+Type: Package
+Title: Multi-Model Fitting of Growth Curves
+Version: 0.7.4
+Authors@R: person("José Iván", "Velázquez Abunader", email = "jvelazquez@cinvestav.mx", role = c("aut", "cre"))
+Description: Tools to fit, compare, and plot individual growth models
+    (von Bertalanffy, Gompertz, Gompertz-Laird, logistic, Richards, the four
+    classic Schnute (1981) parametrisation cases, Schnute-Richards, a
+    seasonal von Bertalanffy model, alternative von Bertalanffy
+    reparametrisations, a practical biphasic model, the non-asymptotic
+    Persistence and Tanaka models, four classical single-predictor
+    baseline curves (linear, power, exponential, and logarithmic), and
+    seven further named curves from the growth-model literature
+    (hyperbolic, Ricker, Beverton-Holt, Gamma, Weibull, extended power,
+    and Johnson) under a
+    multi-model approach. Includes
+    fitting by nonlinear least squares, maximum likelihood, or Bayesian
+    inference (self-contained adaptive Metropolis-Hastings MCMC, no external
+    engine required); confidence/credible intervals via likelihood profiles
+    (with profile plots), joint (bivariate) likelihood-profile confidence
+    regions for correlated parameter pairs, bootstrap, or posterior
+    samples; model comparison
+    via information criteria (AIC, AICc, BIC) with Akaike weights or
+    Bayesian criteria (WAIC, DIC); model-averaged predictions; growth-curve
+    comparison between groups via group-covariate model fitting and the
+    Kimura (1980)/Cerrato (1990) likelihood-ratio test; results tables;
+    elegant 'ggplot2' plots; runtime registration of user-defined
+    growth models (add_growth_model()) so the built-in catalogue can be
+    extended with any custom curve, with an automatic multi-start search
+    for starting values so a starting-value heuristic is not required; and
+    growth rate (dL/dt) calculation and plotting (growth_rate(),
+    plot_growth_rate()), absolute and/or relative, computed numerically so
+    it works for any model, built-in or custom.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    ggplot2 (>= 3.4.0),
+    patchwork,
+    minpack.lm,
+    bbmle,
+    stats,
+    utils,
+    tools,
+    grDevices
+Suggests:
+    knitr,
+    kableExtra
+RoxygenNote: 7.3.1
