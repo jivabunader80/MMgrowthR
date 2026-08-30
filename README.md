@@ -1,7 +1,7 @@
 # MMgrowthR
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/TU-USUARIO/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/TU-USUARIO/MMgrowthR/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/jivabunader/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jivabunader/MMgrowthR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 R package to fit, compare, and plot **individual growth models** under a
@@ -36,7 +36,7 @@ From GitHub (recommended - always the latest version):
 
 ```r
 install.packages("remotes")  # if not already installed
-remotes::install_github("TU-USUARIO/MMgrowthR")
+remotes::install_github("jivabunader/MMgrowthR")
 ```
 
 From a local source tarball:
