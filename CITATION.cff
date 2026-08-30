@@ -4,8 +4,8 @@ type: software
 title: "MMgrowthR: Multi-Model Fitting of Growth Curves in R"
 version: 0.7.4.1
 date-released: "2026-08-30"
-url: "https://github.com/jivabunader/MMgrowthR"
-repository-code: "https://github.com/jivabunader/MMgrowthR"
+url: "https://github.com/jivabunader80/MMgrowthR"
+repository-code: "https://github.com/jivabunader80/MMgrowthR"
 license: MIT
 authors:
   - family-names: "Velázquez-Abunader"

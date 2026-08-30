@@ -1,7 +1,7 @@
 # MMgrowthR
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/jivabunader/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jivabunader/MMgrowthR/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/jivabunader80/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jivabunader80/MMgrowthR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 R package to fit, compare, and plot **individual growth models** under a
@@ -36,7 +36,7 @@ From GitHub (recommended - always the latest version):
 
 ```r
 install.packages("remotes")  # if not already installed
-remotes::install_github("jivabunader/MMgrowthR")
+remotes::install_github("jivabunader80/MMgrowthR")
 ```
 
 From a local source tarball:
@@ -75,8 +75,10 @@ is loaded, e.g. `?fit_growth`, `?plot_multimodel_bayes`,
 `?print.growth_fit_bayes`. Every one of those help pages includes a
 runnable **Examples** section (`example("fit_growth")` runs it directly).
 A complete PDF reference manual (title, usage, arguments, value, and
-examples for every documented function) is also included:
-`MMgrowthR-manual.pdf`.
+examples for every documented function) is attached to each
+[release](https://github.com/jivabunader80/MMgrowthR/releases):
+[**MMgrowthR-manual.pdf**](https://github.com/jivabunader80/MMgrowthR/releases/latest/download/MMgrowthR-manual.pdf)
+(this link always points to the latest version).
 
 ## Practice dataset
 
