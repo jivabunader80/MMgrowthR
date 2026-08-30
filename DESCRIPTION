@@ -2,7 +2,7 @@ Package: MMgrowthR
 Type: Package
 Title: Multi-Model Fitting of Growth Curves
 Version: 0.7.4.1
-Authors@R: person("José Iván", "Velázquez Abunader", email = "jvelazquez@cinvestav.mx", role = c("aut", "cre"))
+Authors@R: person("Iván", "Velázquez-Abunader", email = "jvelazquez@cinvestav.mx", role = c("aut", "cre"))
 Description: Tools to fit, compare, and plot individual growth models
     (von Bertalanffy, Gompertz, Gompertz-Laird, logistic, Richards, the four
     classic Schnute (1981) parametrisation cases, Schnute-Richards, a

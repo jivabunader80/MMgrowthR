@@ -41,7 +41,7 @@ function below be tried immediately via \code{data(growth_data)}.
 }
 
 \author{
-\strong{Maintainer}: Jos<U+00E9> Iv<U+00E1>n Vel<U+00E1>zquez Abunader \email{jvelazquez@cinvestav.mx}
+\strong{Maintainer}: Iv<U+00E1>n Vel<U+00E1>zquez-Abunader \email{jvelazquez@cinvestav.mx}
 
 }
 \keyword{internal}
