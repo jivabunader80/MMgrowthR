@@ -59,9 +59,9 @@ citation("MMgrowthR")
 which prints the entry to use (and its BibTeX form, via
 `toBibtex(citation("MMgrowthR"))`). As plain text:
 
-> Velázquez-Abunader, I. (2026). MMgrowthR: Multi-Model Fitting of Growth
-> Curves in R. R package version 0.7.4.1. Centro de Investigación y de
-> Estudios Avanzados. https://doi.org/10.5281/zenodo.22182295
+> Velázquez-Abunader, I., Oribe-Pérez, I. A., & Hernández-Padilla, J. C.
+> (2026). MMgrowthR: Multi-Model Fitting of Growth Curves in R. R package
+> version 0.7.4.1. https://doi.org/10.5281/zenodo.22182295
 
 The repository also includes a `CITATION.cff` file, so GitHub shows a
 **"Cite this repository"** button (top right of the repo page) that

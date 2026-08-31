@@ -41,7 +41,13 @@ function below be tried immediately via \code{data(growth_data)}.
 }
 
 \author{
-\strong{Maintainer}: Iv<U+00E1>n Vel<U+00E1>zquez-Abunader \email{jvelazquez@cinvestav.mx}
+\strong{Maintainer}: Iv<U+00E1>n Vel<U+00E1>zquez-Abunader \email{jvelazquez@cinvestav.mx} (Centro de Investigaci<U+00F3>n y de Estudios Avanzados del Instituto Polit<U+00E9>cnico Nacional)
+
+Authors:
+\itemize{
+  \item Iv<U+00E1>n Ali Oribe-P<U+00E9>rez \email{ivan.oribe@imipas.gob.mx} (Instituto Mexicano de Investigaci<U+00F3>n en Pesca y Acuacultura, Centro Regional de Investigaci<U+00F3>n Acu<U+00ED>cola y Pesquera de Mazatl<U+00E1>n)
+  \item Juan Carlos Hern<U+00E1>ndez-Padilla \email{juan.hernandez@imipas.gob.mx} (Instituto Mexicano de Investigaci<U+00F3>n en Pesca y Acuacultura Sustentables, Direcci<U+00F3>n de Investigaci<U+00F3>n Pesquera en el Pac<U+00ED>fico, CRIAP La Paz)
+}
 
 }
 \keyword{internal}

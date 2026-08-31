@@ -2,7 +2,16 @@ Package: MMgrowthR
 Type: Package
 Title: Multi-Model Fitting of Growth Curves
 Version: 0.7.4.1
-Authors@R: person("Iván", "Velázquez-Abunader", email = "jvelazquez@cinvestav.mx", role = c("aut", "cre"))
+Authors@R: c(
+    person("Iván", "Velázquez-Abunader", email = "jvelazquez@cinvestav.mx",
+           role = c("aut", "cre"),
+           comment = c(affiliation = "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional")),
+    person("Iván Ali", "Oribe-Pérez", email = "ivan.oribe@imipas.gob.mx",
+           role = "aut",
+           comment = c(affiliation = "Instituto Mexicano de Investigación en Pesca y Acuacultura, Centro Regional de Investigación Acuícola y Pesquera de Mazatlán")),
+    person("Juan Carlos", "Hernández-Padilla", email = "juan.hernandez@imipas.gob.mx",
+           role = "aut",
+           comment = c(affiliation = "Instituto Mexicano de Investigación en Pesca y Acuacultura Sustentables, Dirección de Investigación Pesquera en el Pacífico, CRIAP La Paz")))
 Description: Tools to fit, compare, and plot individual growth models
     (von Bertalanffy, Gompertz, Gompertz-Laird, logistic, Richards, the four
     classic Schnute (1981) parametrisation cases, Schnute-Richards, a
@@ -35,16 +44,18 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.0.0)
-Imports:
-    ggplot2 (>= 3.4.0),
-    patchwork,
-    minpack.lm,
-    bbmle,
-    stats,
-    utils,
-    tools,
-    grDevices
-Suggests:
-    knitr,
-    kableExtra
+Imports: ggplot2 (>= 3.4.0), patchwork, minpack.lm, bbmle, stats,
+        utils, tools, grDevices
+Suggests: knitr, kableExtra
 RoxygenNote: 7.3.1
+NeedsCompilation: no
+Packaged: 2026-08-31 21:50:04 UTC; root
+Author: Iván Velázquez-Abunader [aut, cre] (Centro de Investigación y de
+    Estudios Avanzados del Instituto Politécnico Nacional),
+  Iván Ali Oribe-Pérez [aut] (Instituto Mexicano de Investigación en
+    Pesca y Acuacultura, Centro Regional de Investigación Acuícola y
+    Pesquera de Mazatlán),
+  Juan Carlos Hernández-Padilla [aut] (Instituto Mexicano de
+    Investigación en Pesca y Acuacultura Sustentables, Dirección de
+    Investigación Pesquera en el Pacífico, CRIAP La Paz)
+Maintainer: Iván Velázquez-Abunader <jvelazquez@cinvestav.mx>
