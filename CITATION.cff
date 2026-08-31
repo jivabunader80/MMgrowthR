@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "MMgrowthR: Multi-Model Fitting of Growth Curves in R"
 version: 0.7.4.1
-date-released: "2026-08-30"
-doi: 10.5281/zenodo.22182295
+date-released: "2026-08-31"
+doi: 10.5281/zenodo.22182294
 url: "https://github.com/jivabunader80/MMgrowthR"
 repository-code: "https://github.com/jivabunader80/MMgrowthR"
 license: MIT
@@ -12,4 +12,12 @@ authors:
   - family-names: "Velázquez-Abunader"
     given-names: "Iván"
     email: jvelazquez@cinvestav.mx
-    affiliation: "Centro de Investigación y de Estudios Avanzados"
+    affiliation: "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional"
+  - family-names: "Oribe-Pérez"
+    given-names: "Iván Ali"
+    email: ivan.oribe@imipas.gob.mx
+    affiliation: "Instituto Mexicano de Investigación en Pesca y Acuacultura, Centro Regional de Investigación Acuícola y Pesquera de Mazatlán"
+  - family-names: "Hernández-Padilla"
+    given-names: "Juan Carlos"
+    email: juan.hernandez@imipas.gob.mx
+    affiliation: "Instituto Mexicano de Investigación en Pesca y Acuacultura Sustentables, Dirección de Investigación Pesquera en el Pacífico, CRIAP La Paz"

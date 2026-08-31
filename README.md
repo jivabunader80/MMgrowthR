@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/jivabunader80/MMgrowthR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jivabunader80/MMgrowthR/actions/workflows/R-CMD-check.yaml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22182295.svg)](https://doi.org/10.5281/zenodo.22182295)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22182294.svg)](https://doi.org/10.5281/zenodo.22182294)
 <!-- badges: end -->
 
 R package to fit, compare, and plot **individual growth models** under a
@@ -61,13 +61,13 @@ which prints the entry to use (and its BibTeX form, via
 
 > Velázquez-Abunader, I., Oribe-Pérez, I. A., & Hernández-Padilla, J. C.
 > (2026). MMgrowthR: Multi-Model Fitting of Growth Curves in R. R package
-> version 0.7.4.1. https://doi.org/10.5281/zenodo.22182295
+> version 0.7.4.1. https://doi.org/10.5281/zenodo.22182294
 
 The repository also includes a `CITATION.cff` file, so GitHub shows a
 **"Cite this repository"** button (top right of the repo page) that
 generates the same citation in APA or BibTeX format directly - useful for
 anyone who wants to cite the package without installing it first. The
-package is also archived on [Zenodo](https://doi.org/10.5281/zenodo.22182295),
+package is also archived on [Zenodo](https://doi.org/10.5281/zenodo.22182294),
 which assigns it a permanent DOI - the standard way to make software
 formally citable and indexed (e.g. in Google Scholar).
 

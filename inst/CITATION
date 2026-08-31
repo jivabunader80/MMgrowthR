@@ -19,11 +19,11 @@ bibentry(
   year        = year,
   note        = note,
   url         = "https://github.com/jivabunader80/MMgrowthR",
-  doi         = "10.5281/zenodo.22182295",
+  doi         = "10.5281/zenodo.22182294",
   textVersion = paste0(
     "Velázquez-Abunader, I., Oribe-Pérez, I. A., & Hernández-Padilla, J. C. (",
     year, "). MMgrowthR: Multi-Model Fitting of ",
     "Growth Curves in R. ", note,
-    ". https://doi.org/10.5281/zenodo.22182295"
+    ". https://doi.org/10.5281/zenodo.22182294"
   )
 )
